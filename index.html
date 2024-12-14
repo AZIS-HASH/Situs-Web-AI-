@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs AI - Rekomendasi dan Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Situs AI</h1>
+        <nav>
+            <ul>
+                <li><a href="#chatbot">Chatbot</a></li>
+                <li><a href="#rekomendasi">Rekomendasi Produk</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Chatbot Section -->
+        <section id="chatbot">
+            <h2>Chatbot AI</h2>
+            <div id="chatbox"></div>
+            <textarea id="user-input" placeholder="Tanya kami sesuatu..."></textarea>
+            <button onclick="sendMessage()">Kirim</button>
+        </section>
+
+        <!-- Produk Rekomendasi AI Section -->
+        <section id="rekomendasi">
+            <h2>Rekomendasi Produk AI</h2>
+            <div id="produk-rekomendasi"></div>
+        </section>
+
+        <!-- Video, Audio, and Images Section -->
+        <section id="media">
+            <h2>Media Interaktif</h2>
+            <img src="your-image.jpg" alt="Produk AI" style="width: 100%; height: auto;">
+            <video controls width="320" height="240">
+                <source src="your-video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+            <audio controls>
+                <source src="your-audio.mp3" type="audio/mp3">
+                Browser Anda tidak mendukung audio.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AI Situs</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
